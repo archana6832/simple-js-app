@@ -9,7 +9,7 @@ let pokemonList = [
 
               //to find out the tallest pokemon
             if (pokemonList[i].height >1){
-              document.write(`Pokemon Name: ${pokemonList[i].name} (Height: ${pokemonList[i].height}) WOW !! It\'s Big!`);
+              document.write(`Pokemon Name: ${pokemonList[i].name} (Height: ${pokemonList[i].height}) - Wow, that\'s big!`);
               document.write("<br>");
               document.write("<br>");
               }
