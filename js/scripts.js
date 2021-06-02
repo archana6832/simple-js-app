@@ -49,7 +49,7 @@ let pokemonRepository = (function () {
       });
     }).catch(function (e) {
       console.error(e);
-    })
+    });
   }
   //to load the details of the pokemos from api
 
