@@ -96,7 +96,7 @@ let pokemonRepository = (function () {
     titleElement.innerText = pokemon.name;
 
     let heightElement = document.createElement('p');
-    heightElement.innerText = pokemon.height;
+    heightElement.innerText = 'Height: ' + pokemon.height;
 
     let typeElement = document.createElement('p');
     typeElement.innerText = pokemon.types;
