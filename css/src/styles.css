@@ -1,0 +1,12 @@
+body {
+    margin: 20px;
+    font-family: "Courier New", sans-serif;
+    text-align: center;
+    background-color: #fff;
+}
+button.btn.btn-block{
+      text-transform: capitalize;
+}
+button.btn.btn-block:hover {
+  color: #000;
+}
